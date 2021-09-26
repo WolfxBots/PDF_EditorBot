@@ -1,0 +1,22 @@
+{
+	"name": "PDF_EditorRobot",
+	"description": "Telegram Image to PDF Bot",
+	"keywords": [
+		"PDF TO IMG",
+		"IMG TO PDF",
+		"Files TO PDF",
+		"PDF TO FILES"
+	  ],
+	  "buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	],
+	"repository": "https://github.com/wolfxbots/PDF_Editorbot",
+	"env": {
+		"API_TOKEN": {
+			"description": "Get BOT TOKEN from @botfather"
+		}
+	}
+	
+}
